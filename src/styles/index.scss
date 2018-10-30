@@ -1,8 +1,12 @@
 /* vender */
-@import 'bootstrap';
+@import './vendors/bootstrap';
+
+/* Utility */
+@import './util/mixins';
+@import './util/reset';
 
 /* base */
-@import 'base';
+@import './base/base';
 
 /* container */
 @import 'app';
